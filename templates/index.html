@@ -6,6 +6,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css">
+      <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+
 
     <title>House PropPriceAI</title>
   </head>
@@ -71,6 +73,15 @@
     document.getElementById("prediction").innerText = result.predicted_price || result.error;
   });
 </script>
+       <!-- Contact Section -->
+<footer class="text-center mt-5 p-4 contact-section">
+  <h4>Contact the Creator</h4>
+  <p>
+    Have questions or feedback? Reach out at:
+    <a href="mailto:misharaj233200@gmail.com">misharaj233200@gmail.com</a>
+  </p>
+</footer>
+
 
   </body>
 </html>
