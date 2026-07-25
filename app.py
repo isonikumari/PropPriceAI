@@ -40,7 +40,7 @@ def predict():
     # Predict using trained Ridge pipeline
     prediction = ridge_model.predict(input_df)[0]
 
-    return jsonify({"predicted_price": f"₹{prediction:,.2f}"})
+    return jsonify({"predicted_price": f"${prediction:,.2f}"})
 
 if __name__ == "__main__":
     app.run(debug=False, use_reloader=False)
