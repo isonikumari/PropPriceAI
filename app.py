@@ -36,7 +36,7 @@ def predict():
         [[location, sqft_val, bath_val, bhk_val]],
         columns=["location", "total_sqft", "bath", "bhk"]
     )
-
+    # input_df["Unnamed: 0"] = 0
     # Predict using trained Ridge pipeline
     prediction = ridge_model.predict(input_df)[0]
 
