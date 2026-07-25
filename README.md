@@ -44,14 +44,6 @@ This ensures clean version control without bloating the repository.
 
 ---
 
-## 🎥 Demo / Video
-A short walkthrough video demonstrates:
-- The preprocessing pipeline  
-- Model comparison (Linear Regression vs. Random Forest)  
-- Final predictions and evaluation metrics  
-
----
-
 ## 🚀 Future Improvements
 - Experiment with gradient boosting models (XGBoost, LightGBM)  
 - Hyperparameter tuning for Random Forest  
@@ -62,7 +54,7 @@ A short walkthrough video demonstrates:
 ## 🛠️ Getting Started
 
 ### Prerequisites
-- Python 3.9+
+- Python 3.11+
 - Jupyter Notebook
 - Libraries: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
 
